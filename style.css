@@ -15,6 +15,7 @@ header{
 }
 
 .cabeçalho{
+    text-align: center;
     padding: 0;
 }
 .body{
@@ -28,10 +29,24 @@ header{
 }
 
 .topicos{
-   padding: 0 16px;
-   display:inline-block;
-   font-size: 30px;
+    color:#fdffff;
+    padding: 0 16px;
+    display:inline-block;
+    font-size: 30px;
 }
+
+.titulo{
+    text-align: center;
+ }
+
+ .texto{
+    color: black;
+    margin: 0 16px;
+    text-align: center;
+    display:flexbox;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+ }
 
 .arquivo{
     margin: 0 16px;
