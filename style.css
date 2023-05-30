@@ -42,9 +42,11 @@ header{
  .texto{
     color: black;
     margin: 0 16px;
+    padding: 20px 0;
+    justify-content: center;
     text-align: center;
     display:flexbox;
-    font-size: 30px;
+    font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
  }
 
@@ -55,5 +57,24 @@ header{
     display:flexbox;
     font-size: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+ }
+
+ .rede{
+    color: black;
+    margin: 0 16px;
+    padding: 20px 0;
+    justify-content: center;
+    text-align: center;
+    display:flexbox;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ }
+
+ .logo{
+    margin: 0 16px;
+    padding: 20px 20px;
+    text-align: center;
+    padding: 50px 0px;
+    text-shadow: #6b7c81;
+    grid-template-columns: 20% 20% 20% 20% 20%;
  }
